@@ -12,3 +12,12 @@ You only need to enable the `star` event type:
 
 <img width="385" alt="image" src="https://user-images.githubusercontent.com/10510431/228465784-67183434-91f6-4f6b-92ed-b84fbf39a505.png">
 
+
+## Bark Notification
+
+You can use [Bark](https://github.com/Finb/Bark) to receive notifications on your devices.
+
+1. copy the `BARK_KEY` from the your Bark app.
+2. setting the `BARK_KEY` in the Vercel environment variables.
+
+if you private Bark server, you can setting the `BARK_SERVER` in the Vercel environment variables(Default: `https://api.day.app/`).
